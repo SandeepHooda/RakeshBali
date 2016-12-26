@@ -1,10 +1,18 @@
 <ion-view title="Home" >
  <ion-header-bar class="bar-positive">
-      <h1 class="title">Ionic collapsible list</h1>
+      <h1 class="title">Sample </h1>
     </ion-header-bar>
 
     <ion-content>
+<span ng-repeat="group in groups">
+<button class="accordion" ng-click="toggleAccordian({{$index}})" id="accordion{{$index}}">{{group.name}}</button>
+<div class="panel" id="panel{{$index}}">
+  <p>{{group.data}}</p>
+</div>
 
+
+</span>
+<!--  
       <ion-list>
         <div ng-repeat="group in groups">
           <ion-item class="item-stable"
@@ -17,10 +25,13 @@
           <ion-item class="item-accordion"
                     ng-repeat="item in group.items"
                     ng-show="isGroupShown(group)">
-            {{item}}
+           <div style="width:400px;font-size:12px;word-break:break-all;">
+           {{item}}
+           </div>
+            
           </ion-item>
         </div>
       </ion-list>
-
+-->
     </ion-content>
 </ion-view>

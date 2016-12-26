@@ -1,27 +1,46 @@
-APP.CONTROLLERS.controller ('CTRL_HOME',['$scope',
-    function($scope){
+APP.CONTROLLERS.controller ('CTRL_HOME',['$scope','$http',
+    function($scope,$http){
+	
+	
+	var url = "";
+	if(ionic.Platform.isAndroid()){
+		url = "/android_asset/www/";
+	}
 	$scope.groups = [];
-	  for (var i=0; i<10; i++) {
+	$http.get(url+'js/data/AppData.json').success(function(response){ 
+	console.log(response)
+	for (var i=0; i<response.length; i++) {
 	    $scope.groups[i] = {
-	      name: i,
-	      items: [],
-	      show: false
+	      name: response[i].name,
+	      data: response[i].data
 	    };
-	    for (var j=0; j<3; j++) {
-	      $scope.groups[i].items.push(i + '-Sandeep' + j);
-	    }
+	    
 	  }
+	
+	setTimeout(function(){ 
+		var accordion = angular.element( document.querySelector( '#accordion0' ) );
+		var panel = angular.element( document.querySelector( '#panel0' ) );
+		accordion.addClass('active');
+		panel.addClass('show');
+	},200);
+	
+	});
+	
+	$scope.toggleAccordian = function(index){
+		var accordion = angular.element( document.querySelector( '#accordion'+index ) );
+		var panel = angular.element( document.querySelector( '#panel'+index ) );
+		
+		if (panel.hasClass('show')){
+			accordion.removeClass('active');
+			panel.removeClass('show');
+		}else {
+			accordion.addClass('active');
+			panel.addClass('show');
+		}
+		
+	}
 	  
-	  /*
-	   * if given group is the selected group, deselect it
-	   * else, select the given group
-	   */
-	  $scope.toggleGroup = function(group) {
-	    group.show = !group.show;
-	  };
-	  $scope.isGroupShown = function(group) {
-	    return group.show;
-	  };
+	  
 	  
 		
 	}

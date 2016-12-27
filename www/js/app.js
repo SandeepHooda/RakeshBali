@@ -32,12 +32,30 @@ angular.module('starter', APP.DEPENDENCIES.concat(APP.OTHERDEPENDENCIES))
 						 }
 					}	
 					
-				}).state('tab.contacts',{
-					url:'/contacts',
+				}).state('tab.yourdetails',{
+					url:'/yourdetails',
 					views: {
-						 'tab-contacts': {
-						 templateUrl: 'contacts/contacts.html',
-						 controller: 'CTRL_CONTACTS'
+						 'tab-yourdetails': {
+						 templateUrl: 'details/yourdetails.html',
+						 controller: 'CTRL_YOURDETAILS'
+						 }
+					}	
+					
+				}).state('tab.contactus',{
+					url:'/contactus',
+					views: {
+						 'tab-contactus': {
+						 templateUrl: 'contactus/contactus.html',
+						 controller: 'CTRL_CONTACTUS'
+						 }
+					}	
+					
+				}).state('tab.faq',{
+					url:'/faq',
+					views: {
+						 'tab-faq': {
+						 templateUrl: 'questions/questions.html',
+						 controller: 'CTRL_QUESTIONS'
 						 }
 					}	
 					

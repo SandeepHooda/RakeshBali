@@ -1,0 +1,67 @@
+[
+{"name":"AUDIO:",
+"data":""
+},
+{"name":"1. What is audio system design?",
+"data":"1. Audio system design works out the specifications of an audio system starting from the sound levels to be achieved in a hall. It helps choosing the appropriate microphones, audio mixer, audio power amplifier and loudspeakers for meeting the sound levels and audio quality desired in a hall."
+},
+{"name":"2. How is audio system selection made?",
+"data":"2. Audio system selection can be divided into two parts:1. audio electronics and 2. loudspeakers. Microphones may be selected independently depending on special need and individual choice. Audio electronics is further divided in two parts: Front-end electronics and Power Amplifiers. Front end electronics includes Preamplifiers and Mixers. These are selected based on the number of microphone and line inputs required. Power amplifiers decide the maximum electrical power required to drive the loudspeakers for the achieving the desired levels. Loudspeakers selection is the toughest part of the audio system design. However no compromise should be made on loudspeaker quality."
+},
+{"name":"3. How important are different components of the audio chain?",
+"data":"3. Each component in the audio chain namely: Microphones, Preamplifiers, Mixers, Power Amplifiers, Loudspeakers and Audio Wiring is to be selected with thorough study. However with advancement in electronic design and production control, audio electronics specifications are met by a large number of manufacturers and reliable components with attractive features are easily available. The difficulty comes in selection of loudspeakers since poor selection here can lower the total sound quality and sound projection in the hall. One should plan to invest on a better set of loudspeakers than on too expensive electronics."
+},
+{"name":"4. Which is the single most important component on which audio quality depends?",
+"data":"4. Loudspeakers are the single most important component of the audio chain which can result in lower sound reproduction. Commercial grade electronics with high quality professional loudspeakers will sound better than high quality professional electronics with commercial grade loudspeakers."
+},
+{"name":"5. What makes B.A.C. loudspeakers quality high?",
+"data":"5. B.A.C. loudspeakers are scientifically designed and fabricated with high precision by a well trained team of professionals. Each part of the loudspeaker goes through detailed quality checks. Overall response is tested as per specifications. See Our Loudspeaker Quality."
+},
+{"name":"6. How is audio wiring selection and layout decided?",
+"data":"6. Audio wiring selection depends on the wire length and current carrying capacity. The layout need to take care of separating low level signals from high power signals and supply power lines.  We suggest suitable wires for reliable and durable audio system operation."
+},
+{"name":"ACOUSTICS:",
+"data":""
+},
+{"name":"7. What is acoustics?",
+"data":"7. Acoustics is the science of sound."
+},
+{"name":"8. What is acoustic design?",
+"data":"8.Acoustic design studies the sound propagation in a space and works out the corrective measures to make the sound intelligible and pleasant to all the listeners using that space. It involves quantifying sound field using acoustic parameters like reverberation time, early decay time, clarity, warmth etc."
+},
+{"name":"9. What is acoustic paneling?",
+"data":"9. Acoustic paneling is designed and fabricated to meet acoustic design requirements of absorption, diffusion and reflection."
+},
+{"name":"10. How is acoustic paneling different from decorative paneling?",
+"data":"10. Decorative paneling may have some acoustic characteristics of absorption. However these are not to any acoustic specifications. Whereas acoustic paneling can be customized to a decorative paneling finish to match with the desired aesthetics."
+},
+{"name":"11. What is value addition if good acoustics are achieved?",
+"data":"11. Good acoustics helps in pleasant and un-fatigued listening. The programmers sound lively, spacious and intelligible. Good classroom acoustics can even shape the personality of children making them more productive later in life."
+},
+{"name":"12. Why does one require good acoustics for a large space/hall?",
+"data":"12.Same as 11."
+},
+{"name":"13. How important is acoustics for a home theatre?",
+"data":"13. In Home theatres acoustics, reverberation time can be managed with room furnishing and seating arrangement. However room modes can cause coloration and sound timbre change. This may require proper placement of loudspeakers and use of multiple subwoofers if acoustic treatment is to be totally avoided. A minimum and judicious use of acoustic paneling after studying room modes can be beneficial."
+},
+{"name":"14. How important is acoustics for an office, conference hall, discussion room?",
+"data":"14. It is important to have these spaces where it is easy to hear each other and one need not raise the speech level. This can be achieved by minimum acoustic paneling. Also sound leak to other work places needs to be addressed."
+},
+{"name":"15. How important is acoustics for a restaurant, dining hall, food court, pub?",
+"data":"15. We consider the good acoustics are essential in these places to be relaxed while eating in these places."
+},
+{"name":"16. How and when does one involve an acoustic consultant?",
+"data":"16. The best time to involve an acoustic consultant is at the time of selection of site and when the plans are still on the drawing board.  This can help reducing investment on acoustic treatment later. Spell out your total needs while engaging an acoustic consultant to help work out a cost effective design."
+},
+{"name":"AUDIO & ACOUSTICS INTEGRATED PROJECTS:",
+"data":""
+},
+{"name":"17. How can the audio and acoustics requirements of a hall be met?",
+"data":"17. To meet audio and acoustic requirements optimally engage a designer who has capability to design audio as well as acoustics. The selection of loudspeakers with directivity patterns that can confine sound propagation to audience seating can reduce acoustic work. However for live sound programmers acoustics needs special attention."
+},
+{"name":"18. How to make an investment estimate for an audio and acoustic project?",
+"data":"18. Ask for a proposal only after initial studies are carried out by the designer."
+},
+{"name":"19. How does an audio and acoustic designer work?",
+"data":"19. An acoustic designer begins work from the architectural drawings and a study visit to the site. An estimate of acoustic parameters is calculated using architectural details of the space. The main goal is to minimize long delayed strong reflections and lateralize early sound reflections."
+}]

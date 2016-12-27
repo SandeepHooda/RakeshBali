@@ -1,11 +1,11 @@
-<ion-view title="Home" >
+<ion-view title="FAQ" >
  <ion-header-bar class="bar-positive">
       <h1 class="title">Bali Acoustic</h1>
     </ion-header-bar>
 
     <ion-content>
 <span ng-repeat="group in groups">
-<button class="accordion" ng-click="toggleAccordian({{$index}})" id="accordion{{$index}}">{{group.name}}</button>
+<button class="accordion"  ng-click="toggleAccordian({{$index}})" id="accordion{{$index}}">{{group.name}}</button>
 <div class="panel" id="panel{{$index}}">
   <p>{{group.data}}</p>
 </div>

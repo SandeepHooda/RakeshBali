@@ -5,8 +5,8 @@
 
     <ion-content>
 <span ng-repeat="group in groups">
-<button class="accordion"  ng-click="toggleAccordian({{$index}})" id="accordion{{$index}}">{{group.name}}</button>
-<div class="panel" id="panel{{$index}}">
+<button class="accordion"  ng-click="toggleAccordian({{$index}})" id="accordionfaq{{$index}}">{{group.name}}</button>
+<div class="panel" id="panelfaq{{$index}}">
   <p>{{group.data}}</p>
 </div>
 

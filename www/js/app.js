@@ -59,6 +59,15 @@ angular.module('starter', APP.DEPENDENCIES.concat(APP.OTHERDEPENDENCIES))
 						 }
 					}	
 					
+				}).state('tab.products',{
+					url:'/products',
+					views: {
+						 'tab-products': {
+						 templateUrl: 'products/products.html',
+						 controller: 'CTRL_PRODUCTS'
+						 }
+					}	
+					
 				})
 				$urlRouterProvider.otherwise('/tab/home');
 			}

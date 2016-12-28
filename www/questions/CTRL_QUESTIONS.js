@@ -19,25 +19,21 @@ APP.CONTROLLERS.controller ('CTRL_QUESTIONS',['$scope','$http',
 	    
 	  }
 	
-	 setTimeout(function(){ 
+	setTimeout(function(){ 
 		for (var i =0; i<$scope.groups.length;i++){
 			if( $scope.headerIDS.indexOf(i) >= 0){
-				var accordion = angular.element( document.querySelector( '#accordion'+i ) );
+				var accordion = angular.element( document.querySelector( '#accordionfaq'+i ) );
 				accordion.addClass('header');
-				accordion.removeClass('accordion');
-				
-				  
-			}
-			
-		}
-	   
-    },200);
+				accordion.removeClass('accordion');	  
+			}		
+		}	   
+    },2);
 	
 	});
 	
 	$scope.toggleAccordian = function(index){
-		var accordion = angular.element( document.querySelector( '#accordion'+index ) );
-		var panel = angular.element( document.querySelector( '#panel'+index ) );
+		var accordion = angular.element( document.querySelector( '#accordionfaq'+index ) );
+		var panel = angular.element( document.querySelector( '#panelfaq'+index ) );
 		
 		if( $scope.headerIDS.indexOf(index) == -1){
 			if (panel.hasClass('show')){

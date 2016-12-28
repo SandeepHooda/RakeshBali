@@ -2,32 +2,36 @@
  <ion-content >
 <div class="list">
   <label class="item item-input">
-    <input type="text" placeholder="First Name *">
+    <input type="text" placeholder="First Name *" ng-model="mydata.firstName" ng-change="saveYourDetails()">
   </label>
   <label class="item item-input">
-    <input type="text" placeholder="Last Name">
+    <input type="text" placeholder="Last Name" ng-model="mydata.lastName"  ng-change="saveYourDetails()">
   </label>
   <label class="item item-input">
-    <input type="text" placeholder="Phone number *">
+    <input type="text" phone-number placeholder="Phone number *" ng-model="mydata.phoneNumber"  ng-change="saveYourDetails()">
   </label>
   <label class="item item-input">
-    <input type="text" placeholder="Email">
+    <input type="text" placeholder="Email" ng-model="mydata.email" ng-change="saveYourDetails()">
   </label>
 </div>
 
 
 <hr/><br/>
 <label class="item item-input">
-    <input type="text" placeholder="Room size ">
+    <input type="text" placeholder="Room size " ng-model="mydata.roomSize" ng-change="saveYourDetails()">
   </label>
   <label class="item item-input">
-    <input type="text" placeholder="No of windows">
+    <input type="text" placeholder="No of windows" ng-model="mydata.windowCount" ng-change="saveYourDetails()">
   </label>
   <label class="item item-input">
-    <input type="text" placeholder="No of doors ">
+    <input type="text" placeholder="No of doors "  ng-model="mydata.doorCount" ng-change="saveYourDetails()">
   </label>
+  <label class="item item-input">
+    <input type="text" placeholder="e.g. Govt conference/ Party hall etc."  ng-model="mydata.typeOfBusiness" ng-change="saveYourDetails()">
+  </label>
+  
  
-<button class="button button-block button-positive">
+<button class="button button-block button-positive" ng-model="mydata.email" ng-click="submit()">
   Get me the design
 </button>
 

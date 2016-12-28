@@ -1,0 +1,24 @@
+<ion-view title="Products" >
+ <ion-header-bar class="bar-positive">
+      <h1 class="title">Products</h1>
+    </ion-header-bar>
+
+    <ion-content>
+<span ng-repeat="product in products">
+<button class="accordion"  ng-click="toggleAccordian({{$index}})" id="accordionproducts{{$index}}">{{product.name}}</button>
+<div class="panel" id="panelproducts{{$index}}">
+
+<img  ng-src="{{product.img}}"  class="image-list-thumb"/>
+<div ng-repeat="spec in product.specs" class="card">
+  <div class="item item-text-wrap">
+    {{spec}} 	
+  </div>
+</div>
+  
+</div>
+
+
+</span>
+
+    </ion-content>
+</ion-view>
